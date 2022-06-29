@@ -1,0 +1,22 @@
+{
+  "name": "opencart-sql-api-test",
+  "version": "1.0.0",
+  "description": "testing the opencart-sql-api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattBtindall/-opencart-sql-api-test.git"
+  },
+  "author": "Matthew B Tindall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattBtindall/-opencart-sql-api-test/issues"
+  },
+  "homepage": "https://github.com/mattBtindall/-opencart-sql-api-test#readme",
+  "dependencies": {
+    "opencart-sql-api": "^1.1.3"
+  }
+}
