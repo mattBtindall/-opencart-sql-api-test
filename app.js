@@ -7,6 +7,7 @@ const requestListener = function (req, res) {
     res.setHeader("Content-Type", "application/json");
     res.writeHead(200);
     const products = require('./get-products').myProducts.then(products => {
+        console.log(products);
         res.end(JSON.stringify(products));
     });
 };

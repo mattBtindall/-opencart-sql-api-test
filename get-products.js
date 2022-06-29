@@ -14,4 +14,4 @@ const myStoreDB = new Api({
 });
   
 const productsRepository = new Products(myStoreDB);  
-exports.myProducts = productsRepository.list({ page: 1, limit: 5 });
+exports.myProducts = productsRepository.list({ page: 1, limit: 1 });
